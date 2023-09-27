@@ -4,9 +4,10 @@ This project is designed to be a web socket for its counter part [AudioPlayer](h
 # Table of Contents
 - Prerequisites
 - Installation
-- License
+- API
 - Resources
 - Contact
+- License
 
 # Prerequisites
 - Node v18+ [Visit Google](https://nodejs.org/en/download)
@@ -41,3 +42,17 @@ npm install
 ```
 npm run start
 ```
+
+# API
+There is few API endpoints along side the socket for endpoints use the  [Postman Collection](./Meteoweather Server.postman_collection.json), 
+for the socket you need to connect to ``` ws://localhost:3000/ ```
+
+# Resources
+- [Mongoose Guide](https://mongoosejs.com/docs/guide.html)
+- [Express Guide](https://expressjs.com/en/starter/installing.html)
+
+# Contact
+You can reach me out by my email [Email](mailto:majd.m4a4@gmail.com) or by [LinkedIn](https://www.linkedin.com/in/majd-yahia/) 
+
+# License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

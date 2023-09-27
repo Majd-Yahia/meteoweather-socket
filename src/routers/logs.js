@@ -3,7 +3,7 @@ const router = new express.Router();
 const Logs = require('../models/logs')
 
 
-router.get('/logs/clear', async (req, res) => {
+router.delete('/logs/clear', async (req, res) => {
     try {
         await Logs.deleteMany({})
         res.status(204).send();

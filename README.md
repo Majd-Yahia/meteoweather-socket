@@ -44,7 +44,7 @@ npm run start
 ```
 
 # API
-There is few API endpoints along side the socket for endpoints use the  [Postman Collection](./Meteoweather Server.postman_collection.json), 
+There is few API endpoints along side the socket for endpoints use the [Postman Collection](./Meteoweather%20Server.postman_collection.json), 
 for the socket you need to connect to ``` ws://localhost:3000/ ```
 
 # Resources

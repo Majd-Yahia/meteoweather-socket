@@ -24,10 +24,13 @@ git clone https://github.com/Majd-Yahia/meteoweather-socket.git
 - Extract the zip file and rename it to mongodb
 - Move the newly created folder to monogodb-cli directory
 - Create another directory in the same folder monogodb-cli with the name mongodb-data
+- Open a new terminal
 - After that you need to run the following command to start the mongodb server
 ```
-<Full Path to this executable>\mongodb-cli\bin\mongod.exe --dbpath=<Full Path to this direcotry>\mongodb-cli\mongodb-data
+<Full Path to this executable>\mongod.exe --dbpath=<Full Path to this direcotry>\mongodb-data
 ```
+## Important Note
+Please make sure the [This Project](https://github.com/Majd-Yahia/meteoweather-socket) is started and running on **Port:3000** before you start [Audio Player](https://github.com/Majd-Yahia/meteoweather-player.git)
 
 ## Continue
 - Go into the directory

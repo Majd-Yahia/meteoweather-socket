@@ -1,2 +1,3 @@
 node_modules
-mongodb-cli/*
+mongodb-cli/mongodb/*
+mongodb-cli/mongodb-data/*

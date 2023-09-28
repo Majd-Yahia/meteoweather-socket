@@ -10,11 +10,11 @@ This project is designed to be a web socket for its counter part [AudioPlayer](h
 - License
 
 # Prerequisites
-- Node v18+ [Visit Google](https://nodejs.org/en/download)
-- Mongodb [Community Sever 7.0.1](https://www.mongodb.com/download-center/community/releases)
+- [Node v18+ ](https://nodejs.org/en/download)
+- [Mongodb](https://www.mongodb.com/download-center/community/releases)
 
 # Installation
-- To run this websocket you need to install it by running the following command
+- Clone the git repo
 ```
 git clone https://github.com/Majd-Yahia/meteoweather-socket.git
 ```
@@ -24,8 +24,7 @@ git clone https://github.com/Majd-Yahia/meteoweather-socket.git
 - Extract the zip file and rename it to mongodb
 - Move the newly created folder to monogodb-cli directory
 - Create another directory in the same folder monogodb-cli with the name mongodb-data
-- Open a new terminal
-- After that you need to run the following command to start the mongodb server
+- After that you need to run the following command in a new terminal to start the mongodb server
 ```
 <Full Path to this executable>\mongod.exe --dbpath=<Full Path to this direcotry>\mongodb-data
 ```

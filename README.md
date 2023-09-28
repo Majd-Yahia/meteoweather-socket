@@ -22,8 +22,8 @@ git clone https://github.com/Majd-Yahia/meteoweather-socket.git
 ## Read this part if you are using [Windows](https://www.microsoft.com/en-jo/) Note since we are using [Mongodb](https://www.mongodb.com/download-center/community/releases) there is an extra step for mongodb server startup.
 - Download the zip folder with version 7.0.1
 - Extract the zip file and rename it to mongodb
-- Move the newly created folder to monogodb-cli directory
-- Create another directory in the same folder monogodb-cli with the name mongodb-data
+- Move the newly created folder to [monogodb-cli](/mongodb-cli/) directory
+- Create another directory in the same folder [monogodb-cli](/mongodb-cli/) with the name mongodb-data
 - After that you need to run the following command in a new terminal to start the mongodb server
 ```
 <Full Path to this executable>\mongod.exe --dbpath=<Full Path to this direcotry>\mongodb-data
